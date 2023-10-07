@@ -1,10 +1,17 @@
 # Olog Project
 
-![Olog Project Logo](https://cdn.dribbble.com/userupload/10404150/file/original-3afc3a2d9d00886872ecaf11bc98561f.jpg?resize=1024x768)
+### Index
+1. [Intro](#intro)
+2. [Caracteristicas](#caracteristicas)
+3. [Requisitos](#requisitos)
+4. [Instalacion](#instalacion)
+5. [Ejecucion](#ejecucion)
+
+## Intro
 
 Este es un proyecto de React creado con Vite, diseñado para ayudarte a realizar un seguimiento de diferentes tipos de OCIO, como películas, series, videojuegos, restaurantes y bares, fiestas, y más. El proyecto incluye un sistema de puntuaciones para que puedas recordar tus favoritos y seguir agregando funcionalidades a medida que avances en el desarrollo.
 
-## Características
+## Caracteristicas
 
 - Registro y seguimiento de películas vistas, series seguidas, videojuegos jugados, lugares visitados y eventos a los que has asistido.
 - Sistema de puntuación para calificar y recordar tus experiencias.
@@ -21,7 +28,7 @@ Install Bun v1.0.4
 curl -fsSL https://bun.sh/install | bash
 ```
 
-## Instalación
+### Instalación
 
 1. Clona este repositorio en tu máquina local:
 
@@ -29,7 +36,7 @@ curl -fsSL https://bun.sh/install | bash
 git clone https://github.com/samU13/olog-project.git
 ```
 
-## Ejecuciuon del proyecto
+#### Ejecucion
 
 Para ejecutar el proyecto la primera vez : 
 ```bash
