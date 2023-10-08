@@ -1,9 +1,9 @@
-/* eslint-disable react/prop-types */
 import { useEffect, useRef, useState } from "react";
 import StarRating from "./StarRating";
 import { useMovies } from "./useMovies";
 import { useLocalStore } from "./useLocalStore";
 import { useKey } from "./useKey";
+import { NavBar } from "./components/Header/NavBar";
 
 const OMDbKEY = "32afb1a3";
 
@@ -77,24 +77,6 @@ function Loader() {
 
 function ErrorMsg({ message }) {
   return <p className="error">🚨 {message}</p>;
-}
-
-function NavBar({ children }) {
-  return (
-    <nav className="nav-bar">
-      <Logo />
-
-      {children}
-    </nav>
-  );
-}
-function Logo() {
-  return (
-    <div className="logo">
-      <span role="img">🌕</span>
-      <h1>Olog Project</h1>
-    </div>
-  );
 }
 
 function Search({ query, setQuery }) {
